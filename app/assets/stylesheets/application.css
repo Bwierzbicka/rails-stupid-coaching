@@ -8,3 +8,32 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+.container {
+  width: 50vw;
+  margin: 30px auto;
+}
+
+.container h1 {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.label {
+  font-size: small;
+}
+
+.message {
+  margin: 20px 0;
+}
+
+.my-link {
+  text-decoration: none;
+  color: rgb(113, 3, 113);
+}
+
+.my-link:hover {
+  border-bottom: 1px dotted rgb(113, 3, 113);
+}
